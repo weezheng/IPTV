@@ -1,15 +1,6 @@
 #EXTM3U name="成都电信IPTV - 2025-12-20 07:11:24" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",翡翠台
-http://101.35.240.114:88/live.php?id=翡翠台
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="卫视IPV4",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
-http://101.35.240.114:88/phenix.php?id=fhzx
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
-http://101.35.240.114:88/phenix.php?id=fhzw
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
-http://101.35.240.114:88/phenix.php?id=fhhk
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 http://192.168.2.1:4000/udp/239.94.0.31:5140
@@ -100,6 +91,9 @@ http://192.168.2.1:4000/udp/239.94.1.1:5140
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/乐游.png" tvg-id="乐游" tvg-name="乐游" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228716/735196564.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",乐游
 http://192.168.2.1:4000/udp/239.94.1.164:5140
 
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K乐享超清专区" tvg-name="4K乐享超清专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",4K乐享超清专区
+http://192.168.2.1:4000/udp/239.94.1.162:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",欢笑剧场4K
 http://192.168.2.1:4000/udp/239.94.1.176:5140
@@ -503,6 +497,15 @@ http://192.168.2.1:4000/udp/239.94.1.138:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="4K少儿专区" tvg-name="4K少儿专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228763/770478584.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",4K少儿专区
 http://192.168.2.1:4000/udp/239.94.1.70:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="4K乐享超清专区" tvg-name="4K乐享超清专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",4K乐享超清专区
-http://192.168.2.1:4000/udp/239.94.1.162:5140
+
+
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",翡翠台
+http://101.35.240.114:88/live.php?id=翡翠台
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="卫视IPV4",五星体育
+http://101.35.240.114:88/live.php?id=五星体育
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
+http://101.35.240.114:88/phenix.php?id=fhhk
