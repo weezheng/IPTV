@@ -1,4 +1,15 @@
 #EXTM3U name="成都电信IPTV - 2025-12-20 07:11:24" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",翡翠台
+http://101.35.240.114:88/live.php?id=翡翠台
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="卫视IPV4",五星体育
+http://101.35.240.114:88/live.php?id=五星体育
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
+http://101.35.240.114:88/phenix.php?id=fhhk
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 http://192.168.2.1:4000/udp/239.94.0.31:5140
@@ -39,11 +50,14 @@ http://192.168.2.1:4000/udp/239.94.0.12:5140
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV13.png" tvg-id="CCTV13" tvg-name="CCTV13" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228443/585434699.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV13
 http://192.168.2.1:4000/udp/239.94.0.37:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="CCTV14" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV14
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="CCTV14" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",CCTV14
 http://192.168.2.1:4000/udp/239.94.0.14:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="CCTV15" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228812/764702909.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV15
 http://192.168.2.1:4000/udp/239.94.0.38:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="音乐现场专区" tvg-name="音乐现场专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221227938/10000100000000060000000003714453_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",音乐现场专区
+http://192.168.2.1:4000/udp/239.94.1.36:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="CCTV16" group-title="CCTV",CCTV16
 http://192.168.2.1:4000/udp/239.93.42.54:5140
@@ -56,6 +70,78 @@ http://192.168.2.1:4000/udp/239.94.0.20:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV5+.png" tvg-id="CCTV5+" tvg-name="CCTV5+" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228702/753477317.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV5+
 http://192.168.2.1:4000/udp/239.94.0.23:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="CGTN英语" tvg-name="CGTN英语" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228817/764702796.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN英语
+http://192.168.2.1:4000/udp/239.94.0.40:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="求索频道" tvg-name="求索频道" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228494/654861653.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",求索频道
+http://192.168.2.1:4000/udp/239.94.1.142:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/环球旅游.png" tvg-id="环球旅游" tvg-name="环球旅游" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228471/656044603.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",环球旅游
+http://192.168.2.1:4000/udp/239.94.1.147:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="军事专区" tvg-name="军事专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221227910/10000100000000060000000003714451_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",军事专区
+http://192.168.2.1:4000/udp/239.94.1.52:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K纪实专区" tvg-name="4K纪实专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228822/770478771.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K纪实专区
+http://192.168.2.1:4000/udp/239.94.1.69:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京纪实科教.png" tvg-id="北京纪实科教" tvg-name="北京纪实科教" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228709/743521031.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",北京纪实科教
+http://192.168.2.1:4000/udp/239.94.0.109:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金鹰纪实.png" tvg-id="金鹰纪实" tvg-name="金鹰纪实" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228412/585951209.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金鹰纪实
+http://192.168.2.1:4000/udp/239.94.1.1:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/乐游.png" tvg-id="乐游" tvg-name="乐游" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228716/735196564.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",乐游
+http://192.168.2.1:4000/udp/239.94.1.164:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",欢笑剧场4K
+http://192.168.2.1:4000/udp/239.94.1.176:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K视界专区" tvg-name="4K视界专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228685/750260599.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K视界专区
+http://192.168.2.1:4000/udp/239.94.1.60:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/峨眉电影.png" tvg-id="峨眉电影" tvg-name="峨眉电影" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221226951/10000100000000060000000000712272_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",峨眉电影
+http://192.168.2.1:4000/udp/239.94.0.103:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="经典电影专区" tvg-name="经典电影专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226042/10000100000000060000000000076468_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",经典电影专区
+http://192.168.2.1:4000/udp/239.94.1.21:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="华语影院专区" tvg-name="华语影院专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228639/734609091.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",华语影院专区
+http://192.168.2.1:4000/udp/239.94.1.22:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="星光院线专区" tvg-name="星光院线专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228603/734609085.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",星光院线专区
+http://192.168.2.1:4000/udp/239.94.1.23:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="全球大片专区" tvg-name="全球大片专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228608/734609097.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",全球大片专区
+http://192.168.2.1:4000/udp/239.94.1.24:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="热播剧场专区" tvg-name="热播剧场专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226501/10000100000000060000000000076467_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",热播剧场专区
+http://192.168.2.1:4000/udp/239.94.1.25:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="谍战剧场专区" tvg-name="谍战剧场专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228670/734609146.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",谍战剧场专区
+http://192.168.2.1:4000/udp/239.94.1.28:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/精彩影视.png" tvg-id="精彩影视" tvg-name="精彩影视" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228613/735174787.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",精彩影视
+http://192.168.2.1:4000/udp/239.94.1.172:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC家庭影院.png" tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228547/675977248.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",CHC家庭影院
+http://192.168.2.1:4000/udp/239.94.1.173:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC影迷电影.png" tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228571/675977226.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",CHC影迷电影
+http://192.168.2.1:4000/udp/239.94.1.174:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC动作电影.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228552/675981650.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",CHC动作电影
+http://192.168.2.1:4000/udp/239.94.1.175:5140
+
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/四川卫视.png" tvg-id="四川卫视" tvg-name="四川卫视" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221227981/10000100000000060000000003732199_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",四川卫视
 http://192.168.2.1:4000/udp/239.94.0.59:5140
@@ -86,6 +172,9 @@ http://192.168.2.1:4000/udp/239.94.0.114:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/山东卫视4K.png" tvg-id="山东卫视" tvg-name="山东卫视4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228773/770656339.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",山东卫视4K
 http://192.168.2.1:4000/udp/239.94.0.120:5140
+
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/湖南卫视.png" tvg-id="湖南卫视" tvg-name="湖南卫视" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221227953/10000100000000060000000003734332_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",湖南卫视
 http://192.168.2.1:4000/udp/239.94.0.61:5140
@@ -224,9 +313,7 @@ http://192.168.2.1:4000/udp/239.94.0.76:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/四川乡村.png" tvg-id="四川乡村" tvg-name="四川乡村" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228445/596286934.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",四川乡村
 http://192.168.2.1:4000/udp/239.94.0.77:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/峨眉电影.png" tvg-id="峨眉电影" tvg-name="峨眉电影" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221226951/10000100000000060000000000712272_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",峨眉电影
-http://192.168.2.1:4000/udp/239.94.0.103:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV2.png" tvg-id="CDTV2" tvg-name="CDTV2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888898/224/3221228889/772314650.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV2
 http://192.168.2.1:4000/udp/239.94.0.155:5140
@@ -245,96 +332,22 @@ http://192.168.2.1:4000/udp/239.94.0.159:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="CDTV8" tvg-name="CDTV8" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888898/224/3221228783/772314810.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV8
 http://192.168.2.1:4000/udp/239.94.0.160:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="熊猫新闻专区" tvg-name="熊猫新闻专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227401/10000100000000060000000002893949_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫新闻专区
-http://192.168.2.1:4000/udp/239.94.1.3:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="熊猫体娱专区" tvg-name="熊猫体娱专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227161/10000100000000060000000001098399_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫体娱专区
-http://192.168.2.1:4000/udp/239.94.1.4:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="熊猫少儿专区" tvg-name="熊猫少儿专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227892/10000100000000060000000003561287_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫少儿专区
-http://192.168.2.1:4000/udp/239.94.1.5:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="熊猫影院专区" tvg-name="熊猫影院专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221226766/10000100000000060000000001098398_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫影院专区
-http://192.168.2.1:4000/udp/239.94.1.6:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="云看熊猫专区" tvg-name="云看熊猫专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221228037/10000100000000060000000003575666_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",云看熊猫专区
-http://192.168.2.1:4000/udp/239.94.1.7:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="金熊猫卡通专区" tvg-name="金熊猫卡通专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227159/10000100000000060000000001098397_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",金熊猫卡通专区
-http://192.168.2.1:4000/udp/239.94.1.8:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="i成都" tvg-name="i成都" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228398/647574497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",i成都
-http://192.168.2.1:4000/udp/239.94.2.1:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="CGTN英语" tvg-name="CGTN英语" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228817/764702796.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN英语
-http://192.168.2.1:4000/udp/239.94.0.40:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="精彩导视" tvg-name="精彩导视" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228426/613328510.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩导视
-http://192.168.2.1:4000/udp/239.94.1.63:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/中国交通.png" tvg-id="中国交通" tvg-name="中国交通" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228440/589023143.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中国交通
-http://192.168.2.1:4000/udp/239.94.0.87:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京纪实科教.png" tvg-id="北京纪实科教" tvg-name="北京纪实科教" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228709/743521031.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",北京纪实科教
-http://192.168.2.1:4000/udp/239.94.0.109:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金鹰纪实.png" tvg-id="金鹰纪实" tvg-name="金鹰纪实" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228412/585951209.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金鹰纪实
-http://192.168.2.1:4000/udp/239.94.1.1:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CETV1.png" tvg-id="CETV1" tvg-name="CETV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228373/593436497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV1
-http://192.168.2.1:4000/udp/239.94.1.2:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CETV2.png" tvg-id="CETV2" tvg-name="CETV2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228656/680759597.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV2
-http://192.168.2.1:4000/udp/239.94.1.19:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="经典电影专区" tvg-name="经典电影专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226042/10000100000000060000000000076468_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",经典电影专区
-http://192.168.2.1:4000/udp/239.94.1.21:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="华语影院专区" tvg-name="华语影院专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228639/734609091.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",华语影院专区
-http://192.168.2.1:4000/udp/239.94.1.22:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="星光院线专区" tvg-name="星光院线专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228603/734609085.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",星光院线专区
-http://192.168.2.1:4000/udp/239.94.1.23:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="全球大片专区" tvg-name="全球大片专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228608/734609097.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",全球大片专区
-http://192.168.2.1:4000/udp/239.94.1.24:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="热播剧场专区" tvg-name="热播剧场专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226501/10000100000000060000000000076467_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",热播剧场专区
-http://192.168.2.1:4000/udp/239.94.1.25:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="谍战剧场专区" tvg-name="谍战剧场专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228670/734609146.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",谍战剧场专区
-http://192.168.2.1:4000/udp/239.94.1.28:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="卡酷少儿" tvg-name="卡酷少儿" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228726/666591487.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",卡酷少儿
-http://192.168.2.1:4000/udp/239.94.1.29:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金鹰卡通.png" tvg-id="金鹰卡通" tvg-name="金鹰卡通" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228534/666560426.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金鹰卡通
-http://192.168.2.1:4000/udp/239.94.1.30:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/优漫卡通.png" tvg-id="优漫卡通" tvg-name="优漫卡通" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221226760/10000100000000060000000001098392_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",优漫卡通
-http://192.168.2.1:4000/udp/239.94.1.31:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="宝宝动画专区" tvg-name="宝宝动画专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228665/734608958.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",宝宝动画专区
-http://192.168.2.1:4000/udp/239.94.1.32:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="少儿动画专区" tvg-name="少儿动画专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226505/10000100000000060000000000076473_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",少儿动画专区
-http://192.168.2.1:4000/udp/239.94.1.33:5140
+
+
+
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="青春动漫专区" tvg-name="青春动漫专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226323/00000100000000060000000000035260_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",青春动漫专区
 http://192.168.2.1:4000/udp/239.94.1.34:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="音乐现场专区" tvg-name="音乐现场专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221227938/10000100000000060000000003714453_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",音乐现场专区
-http://192.168.2.1:4000/udp/239.94.1.36:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="戏曲精选专区" tvg-name="戏曲精选专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228397/10000100000000060000000004900703_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",戏曲精选专区
 http://192.168.2.1:4000/udp/239.94.1.37:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="魅力时尚专区" tvg-name="魅力时尚专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226503/10000100000000060000000000076469_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",魅力时尚专区
 http://192.168.2.1:4000/udp/239.94.1.39:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="百变课堂专区" tvg-name="百变课堂专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228660/734029940.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",百变课堂专区
-http://192.168.2.1:4000/udp/239.94.1.43:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="电竞天堂专区" tvg-name="电竞天堂专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226199/00000100000000060000000000035192_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",电竞天堂专区
 http://192.168.2.1:4000/udp/239.94.1.45:5140
@@ -347,9 +360,7 @@ http://192.168.2.1:4000/udp/239.94.1.50:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="墨宝专区" tvg-name="墨宝专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221227975/10000100000000060000000003715620_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",墨宝专区
 http://192.168.2.1:4000/udp/239.94.1.51:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="军事专区" tvg-name="军事专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221227910/10000100000000060000000003714451_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",军事专区
-http://192.168.2.1:4000/udp/239.94.1.52:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="看天下精选专区" tvg-name="看天下精选专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228911/770478540.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",看天下精选专区
 http://192.168.2.1:4000/udp/239.94.1.68:5140
@@ -362,15 +373,7 @@ http://192.168.2.1:4000/udp/239.94.1.57:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方财经.png" tvg-id="东方财经" tvg-name="东方财经" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228614/701208658.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",东方财经
 http://192.168.2.1:4000/udp/239.94.1.59:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="4K视界专区" tvg-name="4K视界专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228685/750260599.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K视界专区
-http://192.168.2.1:4000/udp/239.94.1.60:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="4K纪实专区" tvg-name="4K纪实专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228822/770478771.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K纪实专区
-http://192.168.2.1:4000/udp/239.94.1.69:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="4K少儿专区" tvg-name="4K少儿专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228763/770478584.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K少儿专区
-http://192.168.2.1:4000/udp/239.94.1.70:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228874/764702881.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN西班牙语
 http://192.168.2.1:4000/udp/239.94.1.65:5140
@@ -380,21 +383,9 @@ http://192.168.2.1:4000/udp/239.94.1.66:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/都市剧场.png" tvg-id="都市剧场" tvg-name="都市剧场" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228448/656044391.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",都市剧场
 http://192.168.2.1:4000/udp/239.94.1.133:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="少儿天地专区" tvg-name="少儿天地专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228502/656570997.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",少儿天地专区
-http://192.168.2.1:4000/udp/239.94.1.138:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="求索频道" tvg-name="求索频道" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228494/654861653.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",求索频道
-http://192.168.2.1:4000/udp/239.94.1.142:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/环球旅游.png" tvg-id="环球旅游" tvg-name="环球旅游" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228471/656044603.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",环球旅游
-http://192.168.2.1:4000/udp/239.94.1.147:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/先锋乒羽.png" tvg-id="先锋乒羽" tvg-name="先锋乒羽" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228523/675976893.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",先锋乒羽
-http://192.168.2.1:4000/udp/239.94.1.151:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/天元围棋.png" tvg-id="天元围棋" tvg-name="天元围棋" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228554/675976190.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",天元围棋
-http://192.168.2.1:4000/udp/239.94.1.152:5140
+
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/快乐垂钓.png" tvg-id="快乐垂钓" tvg-name="快乐垂钓" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228594/694519708.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",快乐垂钓
 http://192.168.2.1:4000/udp/239.94.1.153:5140
@@ -402,20 +393,13 @@ http://192.168.2.1:4000/udp/239.94.1.153:5140
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/茶频道.png" tvg-id="茶频道" tvg-name="茶频道" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228681/694512629.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",茶频道
 http://192.168.2.1:4000/udp/239.94.1.154:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="乐龄学堂专区" tvg-name="乐龄学堂专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228582/686531562.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",乐龄学堂专区
+#EXTINF:-1 tvg-logo="" tvg-id="乐龄学堂专区" tvg-name="乐龄学堂专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228582/686531562.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",乐龄学堂专区
 http://192.168.2.1:4000/udp/239.94.1.155:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="4K乐享超清专区" tvg-name="4K乐享超清专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K乐享超清专区
-http://192.168.2.1:4000/udp/239.94.1.162:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/书画频道.png" tvg-id="书画频道" tvg-name="书画频道" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228623/736363024.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",书画频道
 http://192.168.2.1:4000/udp/239.94.1.163:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/乐游.png" tvg-id="乐游" tvg-name="乐游" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228716/735196564.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",乐游
-http://192.168.2.1:4000/udp/239.94.1.164:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金色学堂.png" tvg-id="金色学堂" tvg-name="金色学堂" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228649/735196578.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金色学堂
-http://192.168.2.1:4000/udp/239.94.1.165:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/法治天地.png" tvg-id="法治天地" tvg-name="法治天地" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228672/735199494.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",法治天地
 http://192.168.2.1:4000/udp/239.94.1.166:5140
@@ -428,21 +412,47 @@ http://192.168.2.1:4000/udp/239.94.1.168:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/动漫秀场.png" tvg-id="动漫秀场" tvg-name="动漫秀场" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228618/735197809.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",动漫秀场
 http://192.168.2.1:4000/udp/239.94.1.171:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/精彩影视.png" tvg-id="精彩影视" tvg-name="精彩影视" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228613/735174787.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩影视
-http://192.168.2.1:4000/udp/239.94.1.172:5140
+#EXTINF:-1 tvg-logo="" tvg-id="精彩导视" tvg-name="精彩导视" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228426/613328510.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩导视
+http://192.168.2.1:4000/udp/239.94.1.63:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC家庭影院.png" tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228547/675977248.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC家庭影院
-http://192.168.2.1:4000/udp/239.94.1.173:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/中国交通.png" tvg-id="中国交通" tvg-name="中国交通" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228440/589023143.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中国交通
+http://192.168.2.1:4000/udp/239.94.0.87:5140
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC影迷电影.png" tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228571/675977226.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC影迷电影
-http://192.168.2.1:4000/udp/239.94.1.174:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CETV1.png" tvg-id="CETV1" tvg-name="CETV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221228373/593436497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV1
+http://192.168.2.1:4000/udp/239.94.1.2:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC动作电影.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228552/675981650.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC动作电影
-http://192.168.2.1:4000/udp/239.94.1.175:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CETV2.png" tvg-id="CETV2" tvg-name="CETV2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228656/680759597.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV2
+http://192.168.2.1:4000/udp/239.94.1.19:5140
+
+
+
+
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",欢笑剧场4K
-http://192.168.2.1:4000/udp/239.94.1.176:5140
+#EXTINF:-1 tvg-logo="" tvg-id="熊猫新闻专区" tvg-name="熊猫新闻专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227401/10000100000000060000000002893949_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫新闻专区
+http://192.168.2.1:4000/udp/239.94.1.3:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="熊猫体娱专区" tvg-name="熊猫体娱专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227161/10000100000000060000000001098399_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫体娱专区
+http://192.168.2.1:4000/udp/239.94.1.4:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="熊猫少儿专区" tvg-name="熊猫少儿专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227892/10000100000000060000000003561287_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",熊猫少儿专区
+http://192.168.2.1:4000/udp/239.94.1.5:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="熊猫影院专区" tvg-name="熊猫影院专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221226766/10000100000000060000000001098398_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="影视电影",熊猫影院专区
+http://192.168.2.1:4000/udp/239.94.1.6:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="金熊猫卡通专区" tvg-name="金熊猫卡通专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221227159/10000100000000060000000001098397_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",金熊猫卡通专区
+http://192.168.2.1:4000/udp/239.94.1.8:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="云看熊猫专区" tvg-name="云看熊猫专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888895/224/3221228037/10000100000000060000000003575666_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",云看熊猫专区
+http://192.168.2.1:4000/udp/239.94.1.7:5140
+
+
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="精彩推荐专区" tvg-name="精彩推荐专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228388/646135582.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩推荐专区
 http://192.168.2.1:4000/udp/239.94.2.10:5140
@@ -452,3 +462,47 @@ http://192.168.2.1:4000/udp/239.94.2.19:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="红原月亮湾" tvg-name="红原月亮湾" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228424/640973626.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",红原月亮湾
 http://192.168.2.1:4000/udp/239.94.2.20:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="i成都" tvg-name="i成都" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228398/647574497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",i成都
+http://192.168.2.1:4000/udp/239.94.2.1:5140
+
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/先锋乒羽.png" tvg-id="先锋乒羽" tvg-name="先锋乒羽" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228523/675976893.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",先锋乒羽
+http://192.168.2.1:4000/udp/239.94.1.151:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/天元围棋.png" tvg-id="天元围棋" tvg-name="天元围棋" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228554/675976190.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",天元围棋
+http://192.168.2.1:4000/udp/239.94.1.152:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="百变课堂专区" tvg-name="百变课堂专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228660/734029940.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",百变课堂专区
+http://192.168.2.1:4000/udp/239.94.1.43:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金色学堂.png" tvg-id="金色学堂" tvg-name="金色学堂" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228649/735196578.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金色学堂
+http://192.168.2.1:4000/udp/239.94.1.165:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="卡酷少儿" tvg-name="卡酷少儿" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228726/666591487.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",卡酷少儿
+http://192.168.2.1:4000/udp/239.94.1.29:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金鹰卡通.png" tvg-id="金鹰卡通" tvg-name="金鹰卡通" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228534/666560426.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",金鹰卡通
+http://192.168.2.1:4000/udp/239.94.1.30:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/优漫卡通.png" tvg-id="优漫卡通" tvg-name="优漫卡通" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221226760/10000100000000060000000001098392_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",优漫卡通
+http://192.168.2.1:4000/udp/239.94.1.31:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="宝宝动画专区" tvg-name="宝宝动画专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228665/734608958.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",宝宝动画专区
+http://192.168.2.1:4000/udp/239.94.1.32:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="少儿动画专区" tvg-name="少儿动画专区" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888888/224/3221226505/10000100000000060000000000076473_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",少儿动画专区
+http://192.168.2.1:4000/udp/239.94.1.33:5140
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="少儿天地专区" tvg-name="少儿天地专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228502/656570997.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",少儿天地专区
+http://192.168.2.1:4000/udp/239.94.1.138:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K少儿专区" tvg-name="4K少儿专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888893/224/3221228763/770478584.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",4K少儿专区
+http://192.168.2.1:4000/udp/239.94.1.70:5140
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K乐享超清专区" tvg-name="4K乐享超清专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="少儿卡通",4K乐享超清专区
+http://192.168.2.1:4000/udp/239.94.1.162:5140
