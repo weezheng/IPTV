@@ -1,0 +1,9 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Runtime logs/reports
+.logs/
+
+# Optional local env
+.venv/

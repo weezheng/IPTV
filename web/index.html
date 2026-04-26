@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPTV 本地 IP 适配器</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>IPTV 本地地址生成器</h1>
+      <p>输入本地 udpxy 地址（如 192.168.2.11:4000），将基准 M3U 中的 <code>/udp/组播地址</code> 重写为你的本地网络地址。</p>
+
+      <label>本地 ip:port</label>
+      <input id="ipPort" placeholder="192.168.2.11:4000" />
+
+      <label>基准 M3U 内容</label>
+      <textarea id="inputM3u" rows="14" placeholder="#EXTM3U ..."></textarea>
+
+      <div class="actions">
+        <button id="rewriteBtn">生成</button>
+        <button id="downloadBtn">下载 my IPTV.m3u</button>
+      </div>
+
+      <label>输出 M3U</label>
+      <textarea id="outputM3u" rows="14" readonly></textarea>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

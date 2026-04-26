@@ -1,0 +1,64 @@
+template:
+  file: M3U.m3u
+
+output:
+  primary_file: M3U.m3u
+  copy_file: my IPTV.m3u
+  write_epg_header: false
+  epg_url: https://epg.zsdc.eu.org/t.xml.gz
+
+matching:
+  key_order:
+    - tvg-id
+    - tvg-name
+    - title
+  normalize:
+    remove_spaces: true
+    remove_dash: true
+    lower: true
+  alias_map: {}
+
+udpxy:
+  default_local_ip_port: 192.168.100.2:4021
+  url_template: "http://{local_ip_port}/udp/{multicast}"
+
+sources:
+  - name: zsdc-udpxy
+    enabled: true
+    type: m3u
+    priority: 10
+    url: "https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4021"
+    request:
+      timeout_sec: 20
+      headers: {}
+    rules:
+      string_replacements: {}
+      include_keywords: []
+      exclude_keywords: []
+
+  # 可继续追加来源（priority 越小优先级越高）
+  # - name: backup-source
+  #   enabled: true
+  #   type: m3u
+  #   priority: 20
+  #   url: "https://example.com/playlist.m3u"
+  #   request:
+  #     timeout_sec: 20
+  #     headers: {}
+  #   rules:
+  #     string_replacements:
+  #       "rtp://": "http://192.168.100.2:4021/udp/"
+  #     include_keywords: []
+  #     exclude_keywords: []
+
+runtime:
+  log_file: .logs/update.log
+  report_file: .logs/last-report.json
+  fail_if_no_source: true
+  dry_run: false
+
+git:
+  enabled: false
+  branch: main
+  commit_message: "chore: auto update IPTV urls"
+  push: true

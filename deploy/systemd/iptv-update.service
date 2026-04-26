@@ -1,0 +1,11 @@
+[Unit]
+Description=IPTV auto updater
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/IPTV
+ExecStart=%h/IPTV/.venv/bin/python %h/IPTV/scripts/update_iptv.py --config config.yaml
+StandardOutput=append:%h/IPTV/.logs/systemd.log
+StandardError=append:%h/IPTV/.logs/systemd.log
