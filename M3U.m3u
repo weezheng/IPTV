@@ -156,7 +156,7 @@ http://192.168.2.11:4000/udp/239.94.0.118:5140
 http://192.168.2.11:4000/udp/239.94.0.119:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京卫视4K.png" tvg-id="北京卫视" tvg-name="北京卫视4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228739/761592568.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",北京卫视4K
-http://192.168.2.11:4000/udp/239.94.0.112:5140
+http://192.168.2.11:4000/udp/239.94.0.111:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/深圳卫视4K.png" tvg-id="深圳卫视" tvg-name="深圳卫视4K" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228906/766421093.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",深圳卫视4K
 http://192.168.2.11:4000/udp/239.94.0.113:5140
